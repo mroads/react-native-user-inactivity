@@ -34,6 +34,16 @@ or
 | onAction     |  undefined  |  `function`  | Action to perform if user is inactive for given time  |
 | handleAppState     |  false  |  `boolean`  | Disable timer if app is in background  |
 
+### Example
+<p align="center">
+<img src="./assets/Image1.png" width="260" height="380">
+  
+<img src="./assets/Image2.png" width="260" height="380">
+
+<img src="./assets/Image3.png" width="260" height="380">
+
+</p>
+
 ### Basic
 ```javascript
 import React, {useState} from 'react';
