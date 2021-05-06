@@ -1,16 +1,16 @@
 {
-  "name": "react-native-user-inactivity",
+  "name": "react-native-user-inactivity-check",
   "title": "React Native User Inactivity",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.1",
+  "description": "This library helps in monitoring child components actions like Move, Drag, Press. If the user didnt perfrom any of the actions in child screens or components, It triggers an action which is passed to it.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-user-inactivity.git",
-    "baseUrl": "https://github.com/github_account/react-native-user-inactivity"
+    "url": "git+https://github.com/mroads/react-native-user-inactivity.git",
+    "baseUrl": "https://github.com/mroads/react-native-user-inactivity"
   },
   "keywords": [
     "react-native"
@@ -20,7 +20,6 @@
     "email": "yourname@email.com"
   },
   "license": "MIT",
-  "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "^16.8.1",
