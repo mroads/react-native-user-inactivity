@@ -53,7 +53,7 @@ export default class UserInactiveCheck extends Component<Props, State> {
 
     // Timer and countdown starts only if app is active
     if (props.handleAppState) {
-      AppState.addEventListener('change', appState => {
+      this.appstatelistener = AppState.addEventListener('change', appState => {
         if (appState === 'active') {
           this.resetTimer();
         } else {
@@ -70,7 +70,8 @@ export default class UserInactiveCheck extends Component<Props, State> {
     this.clearTimer();
     const {handleAppState} = this.props;
     if (handleAppState) {
-      AppState.removeEventListener('change');
+      this.appstatelistener && this.appstatelistener.remove();
+      //AppState.removeEventListener('change');
     }
   }
 
